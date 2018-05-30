@@ -19,5 +19,5 @@ def upc_retrieve():
 	return send_file('templates/output.json',attachment_filename='output.json')  # render_template('output.json')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
 
