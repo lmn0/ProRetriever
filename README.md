@@ -6,6 +6,7 @@ This is a web app written in python and serves the files using flask
 
 Requirements
 ------------
+The code is written in Python 2.7
 `pip install flask`
 
 
