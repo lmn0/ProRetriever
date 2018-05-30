@@ -16,6 +16,7 @@ def upc_retrieve():
 	json_pretty = json_pretty.replace("u'","'")
 	file = open("templates/output.json","w")
 	file.write(json_pretty)
+	file.close()
 	return send_file('templates/output.json',attachment_filename='output.json')  # render_template('output.json')
 
 if __name__ == '__main__':
