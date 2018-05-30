@@ -6,7 +6,7 @@ This is a web app written in python and serves the files using flask
 
 Requirements
 ------------
-`pip install Flask`
+`pip install flask`
 
 
 Running the code
